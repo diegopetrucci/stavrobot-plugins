@@ -1,0 +1,19 @@
+{
+  "name": "delete_reminders",
+  "description": "Delete one or more reminders by stable IDs, with force required for execution.",
+  "entrypoint": "run.py",
+  "parameters": {
+    "reminder_ids": {
+      "type": "string",
+      "description": "JSON array string or comma/newline-separated reminder IDs."
+    },
+    "force": {
+      "type": "boolean",
+      "description": "Required as true for non-dry-run deletion."
+    },
+    "dry_run": {
+      "type": "boolean",
+      "description": "Preview which reminders would be deleted."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "search_reminders",
+  "description": "Search reminders by query with optional completed and list filters.",
+  "entrypoint": "run.py",
+  "parameters": {
+    "query": {
+      "type": "string",
+      "description": "Search query."
+    },
+    "completed": {
+      "type": "boolean",
+      "description": "Include completed reminders when true."
+    },
+    "list": {
+      "type": "string",
+      "description": "Optional reminder list title/name."
+    },
+    "list_id": {
+      "type": "string",
+      "description": "Optional reminder list ID."
+    }
+  }
+}

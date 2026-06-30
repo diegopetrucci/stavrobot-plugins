@@ -1,0 +1,19 @@
+{
+  "name": "export_reminders",
+  "description": "Export reminders as JSON or CSV and write the export file under /tmp/apple-reminders.",
+  "entrypoint": "run.py",
+  "parameters": {
+    "format": {
+      "type": "string",
+      "description": "Export format: json or csv."
+    },
+    "list": {
+      "type": "string",
+      "description": "Optional reminder list title/name."
+    },
+    "list_id": {
+      "type": "string",
+      "description": "Optional reminder list ID."
+    }
+  }
+}

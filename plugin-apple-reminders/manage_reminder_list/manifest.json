@@ -1,0 +1,31 @@
+{
+  "name": "manage_reminder_list",
+  "description": "Create, rename, or delete a reminder list.",
+  "entrypoint": "run.py",
+  "parameters": {
+    "action": {
+      "type": "string",
+      "description": "List action: create, rename, update, or delete."
+    },
+    "title": {
+      "type": "string",
+      "description": "List title for create."
+    },
+    "list": {
+      "type": "string",
+      "description": "Existing list title/name for rename or delete."
+    },
+    "list_id": {
+      "type": "string",
+      "description": "Existing list ID for rename or delete."
+    },
+    "rename": {
+      "type": "string",
+      "description": "New list title for rename/update."
+    },
+    "force": {
+      "type": "boolean",
+      "description": "Required as true for list deletion."
+    }
+  }
+}
