@@ -1,0 +1,6 @@
+{
+  "name": "reminders_doctor",
+  "description": "Return Apple Reminders bridge setup diagnostics for agent use.",
+  "entrypoint": "run.py",
+  "parameters": {}
+}

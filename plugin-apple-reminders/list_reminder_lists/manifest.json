@@ -1,0 +1,6 @@
+{
+  "name": "list_reminder_lists",
+  "description": "List reminder lists available through the Apple Reminders bridge.",
+  "entrypoint": "run.py",
+  "parameters": {}
+}

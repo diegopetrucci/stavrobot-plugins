@@ -1,0 +1,71 @@
+{
+  "name": "edit_reminder",
+  "description": "Edit one reminder by stable ID using supported remindctl patch fields.",
+  "entrypoint": "run.py",
+  "parameters": {
+    "reminder_id": {
+      "type": "string",
+      "description": "Reminder ID or accepted ID prefix."
+    },
+    "title": {
+      "type": "string",
+      "description": "Optional new title."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Optional new notes."
+    },
+    "url": {
+      "type": "string",
+      "description": "Optional new URL."
+    },
+    "due": {
+      "type": "string",
+      "description": "Optional due date/time accepted by remindctl."
+    },
+    "alarm": {
+      "type": "string",
+      "description": "Optional alarm date/time accepted by remindctl."
+    },
+    "repeat": {
+      "type": "string",
+      "description": "Optional recurrence rule such as weekly or every 3 days."
+    },
+    "no_repeat": {
+      "type": "boolean",
+      "description": "Clear recurrence when true."
+    },
+    "priority": {
+      "type": "string",
+      "description": "Optional priority: none, low, medium, or high."
+    },
+    "list": {
+      "type": "string",
+      "description": "Optional destination list title/name."
+    },
+    "list_id": {
+      "type": "string",
+      "description": "Optional destination list ID."
+    },
+    "complete": {
+      "type": "boolean",
+      "description": "Mark the reminder complete when true."
+    },
+    "incomplete": {
+      "type": "boolean",
+      "description": "Mark the reminder incomplete when true."
+    },
+    "clear_due": {
+      "type": "boolean",
+      "description": "Clear the due date when true."
+    },
+    "clear_alarm": {
+      "type": "boolean",
+      "description": "Clear the alarm when true."
+    },
+    "clear_url": {
+      "type": "boolean",
+      "description": "Clear the URL when true."
+    }
+  }
+}
