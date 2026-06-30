@@ -1,6 +1,0 @@
-{
-  "name": "reminders_status",
-  "description": "Check Apple Reminders bridge reachability and advertised capabilities.",
-  "entrypoint": "run.py",
-  "parameters": {}
-}
