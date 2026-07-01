@@ -1,6 +1,6 @@
 # Stavrobot plugins workspace
 
-This repository is a workspace for Stavrobot plugin submodules. It is **not** an installable Stavrobot plugin root and should not be added to Stavrobot directly.
+This repository is a workspace for [Stavrobot](https://github.com/skorokithakis/stavrobot) plugin submodules. It is **not** an installable Stavrobot plugin root and should not be added to Stavrobot directly.
 
 ## Layout
 
