@@ -1,0 +1,3 @@
+[submodule "plugin-apple-reminders"]
+	path = plugin-apple-reminders
+	url = https://github.com/diegopetrucci/stavrobot-apple-reminders-plugin
