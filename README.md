@@ -26,7 +26,8 @@ git submodule update --init --recursive
 To pull the latest submodule commits recorded by this workspace later:
 
 ```bash
-git submodule update --recursive --remote
+git pull --ff-only
+git submodule update --init --recursive
 ```
 
 ## Installing plugins
